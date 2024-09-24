@@ -1,0 +1,26 @@
+import localFont from 'next/font/local';
+
+export const geistSans = localFont({
+	src: '../assets/fonts/GeistVF.woff',
+	variable: '--font-geist-sans',
+	weight: '100 900',
+});
+export const geistMono = localFont({
+	src: '../assets/fonts/GeistMonoVF.woff',
+	variable: '--font-geist-mono',
+	weight: '100 900',
+});
+
+export const nunito = localFont({
+	src: [
+		{
+			path: '../assets/fonts/nunito/Nunito-VariableFont_wght.ttf',
+			weight: '100 900',
+		},
+		{
+			path: '../assets/fonts/nunito/Nunito-Italic-VariableFont_wght.ttf',
+			weight: '100 900',
+		},
+	],
+	variable: '--font-nunito',
+});
