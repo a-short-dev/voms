@@ -1,7 +1,6 @@
 import AppFooter from '@/components/app-footer';
 import AppHeader from '@/components/app-header';
 import EventCard from '@/components/ui/event-card';
-import Image from 'next/image';
 
 export default function Home() {
 	return (

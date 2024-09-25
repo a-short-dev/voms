@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Facebook } from 'lucide-react';
 
 const AppFooter = () => {
 	return (

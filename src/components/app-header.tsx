@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { AlignRight } from 'lucide-react';
-import { Button } from './ui/button';
-import { DONATION_LINK } from '@/constants';
+
 
 export default function AppHeader() {
 	return (
